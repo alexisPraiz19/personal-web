@@ -1,0 +1,9 @@
+/* General */
+@import "./general/normalize.css";
+@import "./general/font.css";
+@import "./general/colors.css";
+@import "./general/extend.css";
+@import "./general/general.css";
+
+/* Aplicación */
+@import "../routers/Home/styles/homeIndexStyles.css";

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{ min-height: 100dvh }
+
+h1, h2, h3, h4{ text-wrap: balance }
+
+p{ text-wrap: pretty }
+
+img{ border-style: none }
+
+button{ text-transform: none }
+
+button[type="button"]{
+    appearance: button;
+    -webkit-appearance: button;
+}
+
+dialog{
+    background-color: white;
+    border: solid;
+    color: black;
+    display: block;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
+    height: fit-content;
+    left: 0;
+    margin: auto;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+}
+  
+dialog:not([open]) { display: none }
+
+::-webkit-input-placeholder{
+    color: inherit;
+    opacity: 0.54;
+}
